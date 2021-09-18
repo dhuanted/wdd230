@@ -1,0 +1,75 @@
+:root {
+  /* Import Google Fonts */
+  @import url("https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&family=Questrial&display=swap");
+
+  /* Call fonts from Google Font */
+  font-family: "Allura", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Questrial", sans-serif;
+
+  /* color palette:
+   https://coolors.co/e6e8e6-ced0ce-9fb8ad-475841-3f403f */
+
+  /* Site Colors */
+  --platinum: #e6e8e6ff;
+  --light-gray: #ced0ceff;
+  --cambridge-blue: #9fb8adff;
+  --rifle-green: #475841ff;
+  --onyx: #3f403fff;
+
+  /* fonts variables */
+  --name-font: Allura, cursive;
+  --body-font: Questrial, sans-serif;
+  --head-font: Montserrat, sans-serif;
+}
+
+body {
+  max-width: 900px;
+  margin: auto;
+  background-color: var(--light-gray);
+  font-family: var(--head-font);
+  padding: 1em;
+}
+
+header,
+footer {
+  background-color: var(--cambridge-blue);
+  color: var(--onyx);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.miNombre {
+  font-family: var(--name-font);
+  color: var(--onyx);
+  font-size: 3em;
+}
+
+.miImg {
+  float: right;
+  border: 8px solid var(--cambridge-blue);
+  border-radius: 10px;
+  margin: -130px 20px 0 0;
+}
+
+nav {
+  font-family: var(--body-font);
+  color: var(--onyx);
+}
+
+nav a {
+  color: var(--rifle-green);
+}
+
+nav a:visited {
+  color: var(--onyx);
+}
+
+nav a:hover {
+  background-color: var(--platinum);
+}
+
+footer {
+  font-size: 0.8em;
+}
