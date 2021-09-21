@@ -1,12 +1,4 @@
 :root {
-  /* Import Google Fonts */
-  @import url("https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&family=Questrial&display=swap");
-
-  /* Call fonts from Google Font */
-  font-family: "Allura", cursive;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Questrial", sans-serif;
-
   /* color palette:
    https://coolors.co/e6e8e6-ced0ce-9fb8ad-475841-3f403f */
 
@@ -17,17 +9,18 @@
   --rifle-green: #475841ff;
   --onyx: #3f403fff;
 
-  /* fonts variables */
-  --name-font: Allura, cursive;
-  --body-font: Questrial, sans-serif;
-  --head-font: Montserrat, sans-serif;
+  /* Call fonts from Google Font */
+  /*
+  font-family: 'Bitter', serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Pacifico', cursive; */
 }
 
 body {
   max-width: 900px;
   margin: auto;
   background-color: var(--light-gray);
-  font-family: var(--head-font);
+  font-family: "Nunito", sans-serif;
   padding: 1em;
 }
 
@@ -41,7 +34,7 @@ footer {
 }
 
 .miNombre {
-  font-family: var(--name-font);
+  font-family: "Pacifico", cursive;
   color: var(--onyx);
   font-size: 3em;
 }
@@ -50,7 +43,7 @@ footer {
   float: right;
   border: 8px solid var(--cambridge-blue);
   border-radius: 10px;
-  margin: -130px 20px 0 0;
+  margin: -100px 20px 0 0;
 }
 
 nav {
@@ -70,6 +63,9 @@ nav a:hover {
   background-color: var(--platinum);
 }
 
+h2 {
+  font-family: "Bitter", serif;
+}
 footer {
   font-size: 0.8em;
 }
