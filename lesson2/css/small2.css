@@ -1,0 +1,100 @@
+@charset "utf-8";
+:root {
+  /* color palette:
+   https://coolors.co/e6e8e6-ced0ce-9fb8ad-475841-3f403f */
+
+  /* Site Colors */
+  --platinum: #e6e8e6ff;
+  --light-gray: #ced0ceff;
+  --cambridge-blue: #9fb8adff;
+  --rifle-green: #475841ff;
+  --onyx: #3f403fff;
+
+  /* Call fonts from Google Font */
+  /*
+  font-family: 'Bitter', serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Pacifico', cursive; */
+}
+
+body {
+  max-width: 1040px;
+  margin: auto;
+  background-color: var(--light-gray);
+  font-family: "Nunito", sans-serif;
+  padding: 1em;
+}
+
+header,
+footer {
+  background-color: var(--cambridge-blue);
+  color: var(--onyx);
+  padding: 10px;
+  text-align: center;
+}
+
+.miNombre {
+  font-family: "Pacifico", cursive;
+  color: var(--onyx);
+  font-size: 2.5em;
+}
+
+.miImg {
+  border: 8px solid var(--cambridge-blue);
+}
+
+nav {
+  font-family: var(--body-font);
+  color: var(--onyx);
+}
+
+nav a {
+  color: var(--rifle-green);
+}
+
+nav a:visited {
+  color: var(--onyx);
+}
+
+nav a:hover {
+  background-color: var(--platinum);
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-family: "Bitter", serif;
+  font-size: 1rem;
+}
+footer {
+  font-size: 0.8em;
+}
+
+section {
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--rifle-green);
+  background-color: var(--cambridge-blue);
+  color: var(--onyx);
+  padding: 0.5em;
+  border: 0.5em;
+  margin: 0.5em;
+  font-family: "Nunito", sans-serif;
+  align-items: center;
+}
+
+section img {
+  margin: auto;
+}
+section a {
+  color: var(--rifle-green);
+}
+
+section a:visited {
+  color: var(--onyx);
+}
+
+section a:hover {
+  background-color: var(--platinum);
+}

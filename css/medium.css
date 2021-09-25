@@ -1,0 +1,29 @@
+@media only screen and (min-width: 37.5em) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  header,
+  footer {
+    background-color: var(--cambridge-blue);
+    color: var(--onyx);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .miNombre {
+    font-size: 3em;
+  }
+
+  .miImg {
+    float: right;
+    border: 8px solid var(--cambridge-blue);
+    border-radius: 10px;
+    margin: -100px 20px 0 0;
+  }
+}

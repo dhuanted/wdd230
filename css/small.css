@@ -1,3 +1,4 @@
+@charset "utf-8";
 :root {
   /* color palette:
    https://coolors.co/e6e8e6-ced0ce-9fb8ad-475841-3f403f */
@@ -29,21 +30,17 @@ footer {
   background-color: var(--cambridge-blue);
   color: var(--onyx);
   padding: 10px;
-  border-radius: 8px;
   text-align: center;
 }
 
 .miNombre {
   font-family: "Pacifico", cursive;
   color: var(--onyx);
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .miImg {
-  float: right;
   border: 8px solid var(--cambridge-blue);
-  border-radius: 10px;
-  margin: -100px 20px 0 0;
 }
 
 nav {
@@ -63,8 +60,12 @@ nav a:hover {
   background-color: var(--platinum);
 }
 
+h1 {
+  font-size: 2rem;
+}
 h2 {
   font-family: "Bitter", serif;
+  font-size: 1rem;
 }
 footer {
   font-size: 0.8em;
