@@ -60,6 +60,12 @@ nav a:hover {
   background-color: var(--platinum);
 }
 
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  list-style: none;
+}
+
 h1 {
   font-size: 2rem;
 }

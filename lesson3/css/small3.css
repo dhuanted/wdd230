@@ -1,0 +1,89 @@
+@charset "utf-8";
+:root {
+  /* color palette:
+   https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+
+  /* Site Colors */
+  --charcoal: #264653ff;
+  --persian-green: #2a9d8fff;
+  --orange-yellow-crayola: rgba(245, 179, 12, 0.404);
+  --sandy-brown: #f4a261ff;
+  --burnt-sienna: #e76f51ff;
+
+  /* Call fonts from Google Font */
+  /*
+  font-family: 'Poppins', sans-serif;
+font-family: 'Stick No Bills', sans-serif;
+ */
+}
+
+body {
+  max-width: 90%;
+  margin: auto;
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  padding: 1em;
+}
+
+header,
+footer {
+  background-color: var(--orange-yellow-crayola);
+  color: var(--charcoal);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.l3DivLogo img {
+  border: 3px solid var(--persian-green);
+  border-radius: 30px 30px 30px 0;
+}
+
+nav {
+  font-family: "Stick No Bills", sans-serif;
+  color: var(--charcoal);
+}
+
+nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 0.1em;
+  color: var(--charcoal);
+}
+
+nav a:visited {
+  color: var(--persian-green);
+}
+
+nav a:hover {
+  background-color: var(--charcoal);
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  list-style: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 1.5rem;
+}
+footer {
+  font-size: 0.8em;
+}
+
+img {
+  max-width: 100%;
+  padding: 0.1em;
+  margin: auto;
+}
+
+.encabeza {
+  font-family: "Stick No Bills", sans-serif;
+}

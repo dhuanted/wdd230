@@ -1,0 +1,22 @@
+/*** CSS FOR TABLET VIEW ***/
+
+@media only screen and (min-width: 32.5em) {
+  body {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+
+  header {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
