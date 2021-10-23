@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-Uk" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Huante" />
+    <title>Natureish Fortecast</title>   
+    <meta name="description" content="Natureish Forecast's Page"/>
+    <link rel="stylesheet" href="css/normalize4.css" >
+    <link rel="stylesheet" href="css/small4.css">
+    <link rel="stylesheet" href="css/medium4.css">
+    <link rel="stylesheet" href="css/large4.css">
+
+     <!-- Import Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Poppins&family=Stick+No+Bills&display=swap"
+       rel="stylesheet"
+     />
+</head>
+<body>
+    <header>
+        
+        <div class="l4DivLogo"><img id="imgHeader" src="images/logo-natureish.jpg" alt="Natureish logo image"></div>
+       <section> 
+       <h1>Natureish Forecast</h1>
+       <p>"Your source for weather data"</p></section>
+        
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a> </li>
+            <li class="active"><a href="preston-4.html">Preston</a> </li>
+            <li><a href="#">Soda Springs</a> </li>
+            <li><a href="#">Fish Haven</a> </li>
+            <li><a href="#">Storm Center</a> </li>
+            <li><a href="#">Gallery</a> </li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="imgPreston"><img src="images/Preston-Idaho-Bush.jpg" alt="Preston City's logo" title="https://www.prestonidaho.net/"></div>
+        <p>Preston is a city located in Franklin County in the US state of Idaho</p>
+        <div class="contentBox">Weather Summary</div>
+        <div class="contentBox">5 Day Forecast</div>
+        <div class="contentBox">Article</div>
+        <br><br>
+        <a href="../index.html">Go to Homepage</a>
+        <hr>
+    </main>
+    <footer>
+        &copy; <span id="currentYear"></span> David Huante | Toronto, Canada |
+        <a href="https://www.byui.edu/online" target="_blank"
+          >BYUI Online Learning</a
+        >
+        | Today's date: <span id="currentdate"></span><br />
+        Last Modified: <span id="lastModified"></span>
+        <script src="js/currentdate.js" ></script>
+        
+      </footer>
+</body>
+</html>

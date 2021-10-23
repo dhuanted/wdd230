@@ -1,0 +1,44 @@
+/*** CSS FOR TABLET VIEW ***/
+
+@media only screen and (min-width: 35rem) {
+  body {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+
+  header {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.8rem 1rem;
+  }
+}
