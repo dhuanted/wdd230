@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Huante" />
+    <title>Natureish Fortecast</title>   
+    <meta name="description" content="Natureish Forecast's Page"/>
+    <link rel="stylesheet" href="css/normalize7.css">
+    <link rel="stylesheet" href="css/small7.css">
+    <link rel="stylesheet" href="css/medium7.css" >
+    <link rel="stylesheet" href="css/large7.css" >
+ 
+    <!-- Import Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link
+   href="https://fonts.googleapis.com/css2?family=Poppins&family=Stick+No+Bills&display=swap"
+   rel="stylesheet"
+ />
+
+</head>
+<body>
+    <header>
+      
+        <div class="l4DivLogo"><img id="imgHeader" src="images/logo-natureish.jpg" alt="Natureish logo image"></div>
+       <section> 
+       <h1>Natureish Forecast</h1>
+       <p>"Your source for weather data"</p></section>
+       <aside onload="toggleAnnouncement()" id="pancakes" class="announcement">
+        Saturday = Preston Pancakes in the Park!<br />
+        9:00 a.m. Saturday at the city park pavilion.
+      </aside>  
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#" >Home</a> </li>
+            <li><a href="../lesson4/preston-4.html" >Preston</a> </li>
+            <li><a href="#">Soda Springs</a> </li>
+            <li><a href="#">Fish Haven</a> </li>
+            <li><a href="#" >Storm Center</a> </li>
+            <li class="active"><a href="#">Gallery</a> </li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="gHeading">Weather gallery</h2>
+        <div class="gImgContainer">
+            <figure id="gImg1">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather1.jpg" alt="Man walking in the snow">
+                </picture>
+                <figcaption>Man walking in the snow</figcaption>
+            </figure>
+            <figure id="gImg2">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather2.jpg" alt="Extreme cold warning">
+                </picture>
+                <figcaption>Extreme cold warning</figcaption>
+            </figure>
+            <figure id="gImg3">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather3.jpg" alt="Some snow">
+                </picture>
+                <figcaption>Some snow</figcaption>
+            </figure>
+            <figure id="gImg4">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather4.jpg" alt="Northern Lights photo">
+                </picture>
+                <figcaption>Northern Lights</figcaption>
+            </figure>
+            <figure id="gImg5">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather5.jpg" alt="Weather station">
+                </picture>
+                <figcaption>Weather station</figcaption>
+            </figure>
+            <figure id="gImg6">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather6.jpg" alt="Rainy golf day">
+                </picture>
+                <figcaption>Rainy golf day</figcaption>
+            </figure>
+            <figure id="gImg7">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather7.jpg" alt="Summer weather">
+                </picture>
+                <figcaption>Summer weather</figcaption>
+            </figure>
+            <figure id="gImg8">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather8.jpg" alt="Fall weather">
+                </picture>
+                <figcaption>Fall weather</figcaption>
+            </figure>
+            <figure id="gImg9">
+                <picture>
+                    <img src="images/placeholder400.jpg" data-src="images/07-weather9.jpg" alt="Winter weather">
+                </picture>
+                <figcaption>Winter weather</figcaption>
+            </figure>
+        </div>
+        <br>
+        <a href="../index.html">Go to Homepage</a>
+        <hr>
+    </main>
+    <footer>
+        &copy; <span id="currentYear"></span> David Huante | Toronto, Canada |
+        <a href="https://www.byui.edu/online" target="_blank"
+          >BYUI Online Learning</a
+        >
+        | Today's date: <span id="currentdate"></span><br />
+        Last Modified: <span id="lastModified"></span>
+      <!-- Script's Dates section -->
+      <script src="js/currentdate.js" ></script>
+      <script src="js/announcement.js"></script>
+      <!-- lazy load -->
+      <script src="js/lazyload.js" ></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="js/webfontload.js"></script>
+    </footer>
+</body>
+</html>
