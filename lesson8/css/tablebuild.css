@@ -1,0 +1,72 @@
+/*** Root ***/
+:root {
+  --color1: #e7f0ed;
+  --data-rows: #e7ffed;
+  --color2: #628ca6;
+  --color3: #7fb9c2;
+}
+
+/*** Body ***/
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0 auto;
+}
+
+div {
+  margin: 5em auto 0 5em;
+  width: 420px;
+  box-shadow: 10px 10px 10px var(--color2);
+}
+
+/*** Table ***/
+table,
+th,
+td {
+  border: 1px solid var(--color1);
+  border-collapse: collapse;
+  width: 420px;
+}
+
+th,
+td,
+caption {
+  padding: 15px 0 15px;
+}
+
+th {
+  font-weight: 900;
+  font-size: 1.4em;
+  color: var(--color1);
+  background-color: var(--color2);
+}
+
+caption {
+  font-weight: bolder;
+  font-size: 3em;
+  background-color: var(--color3);
+  border: 1.1px solid var(--color1);
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+tr:nth-child(even) {
+  background-color: var(--data-rows);
+}
+
+tr {
+  background-color: var(--color1);
+  margin: 0;
+}
+
+.marca {
+  background-color: var(--color2);
+  color: var(--color1);
+}
+
+tfoot tr {
+  background-color: var(--color3);
+}
