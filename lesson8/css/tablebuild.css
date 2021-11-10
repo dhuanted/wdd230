@@ -13,8 +13,10 @@ body {
 }
 
 div {
-  margin: 5em auto 0 5em;
-  width: 420px;
+  /* margin: 5em auto 0 5em;
+  width: 420px; */
+  margin: 5em auto;
+  max-width: 420px;
   box-shadow: 10px 10px 10px var(--color2);
 }
 
