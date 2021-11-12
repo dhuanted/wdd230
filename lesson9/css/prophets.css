@@ -17,13 +17,15 @@ h2 {
   padding: 10px;
 }
 
-/* h2 {
-    font-size: medium;
-} */
+ h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+} 
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
   max-width: 100%;
   gap: 5px;
@@ -36,7 +38,7 @@ section {
     margin: auto;
     background-color: #C9CFCB;
     border: 1px solid black;
-    max-width: 100%;
+    border-radius: .5rem;
 }
 
 section img {
@@ -46,6 +48,7 @@ section img {
     display: block;
     margin-bottom: 10px;
     padding: 15px;
+    border-radius: 15px;
 }
 
 p {
