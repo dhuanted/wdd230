@@ -10,6 +10,7 @@
   }
   h2 {
     font-size: 1.7em;
+    text-align: center;
   }
 
   header {
@@ -56,6 +57,7 @@
     padding: 0.3em;
     font-size: 1.2rem;
     max-width: 90%;
+    text-align: center;
   }
 
   div#five_day {
@@ -69,9 +71,10 @@
   }
 
   .five {
-    display: block;
-    max-width: 100%;
+    display: flex;
+    max-width: 90%;
     margin: auto;
+    flex-direction: column;
   }
 
   tbody {
