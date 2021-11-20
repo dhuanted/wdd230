@@ -5,7 +5,7 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     document.getElementById("current-temp").textContent =
-      jsObject.main.temp.toFixed(2) / 10;
+      jsObject.main.temp.toFixed(0) / 10;
     const imagesrc =
       "https://openweathermap.org/img/w/" + jsObject.weather[0].icon + ".png";
     const desc = jsObject.weather[0].description;
