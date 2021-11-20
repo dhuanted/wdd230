@@ -1,0 +1,192 @@
+@charset "utf-8";
+:root {
+  /* color palette:
+   https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+
+  /* Site Colors */
+  --charcoal: #264653ff;
+  --persian-green: #2a9d8fff;
+  --orange-yellow-crayola: rgba(245, 179, 12, 0.404);
+  --sandy-brown: #f4a261ff;
+  --burnt-sienna: #e76f51ff;
+
+  /* Call fonts from Google Font */
+  /*
+  font-family: 'Poppins', sans-serif;
+font-family: 'Stick No Bills', sans-serif;
+ */
+}
+
+body {
+  max-width: 90%;
+  margin: auto;
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  padding: 1em;
+}
+
+header,
+footer {
+  background-color: var(--orange-yellow-crayola);
+  color: var(--charcoal);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.l4DivLogo img {
+  border: 3px solid var(--persian-green);
+  border-radius: 30px 30px 30px 0;
+}
+
+aside.announcement {
+  background-color: var(--orange-yellow-crayola);
+  color: var(--charcoal);
+  padding: 0.3em;
+  margin-top: 0;
+  margin: 1em;
+  text-align: center;
+}
+
+aside#pancakes.announcement.hide {
+  display: none;
+}
+
+nav {
+  font-family: "Stick No Bills", sans-serif;
+  color: var(--charcoal);
+}
+
+nav button {
+  margin: 0.3rem 5%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem 2%;
+  color: var(--color2);
+}
+
+nav ul li.active a {
+  background-color: var(--orange-yellow-crayola);
+}
+
+nav ul li a:hover {
+  color: whitesmoke;
+  background-color: var(--persian-green);
+}
+
+nav ul.hide {
+  display: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 1.5rem;
+}
+footer {
+  font-size: 0.8em;
+}
+
+img {
+  max-width: 100%;
+  padding: 0.1em;
+  margin: auto;
+}
+
+.herodiv {
+  position: relative;
+}
+
+.herodiv img {
+  width: 100%;
+}
+
+.weathersummary {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  background-color: rgba(153, 180, 191, 0.9);
+  color: var(--charcoal);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 0.3em;
+  font-size: 0.8rem;
+}
+
+#weather_summary {
+  grid-column: 1/3;
+}
+
+.heroimg {
+  max-width: 100%;
+}
+
+.contentBox {
+  background-color: var(--orange-yellow-crayola);
+  color: var(--charcoal);
+  padding: 12px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 20px 20px 20px 0;
+}
+
+section.headings1 {
+  text-align: left;
+}
+
+img#ice_shack {
+  padding: 10px;
+  background-color: var(--accent2);
+  width: 95%;
+}
+
+div#mapdiv {
+  color: #2a3640;
+  text-align: center;
+}
+
+div#five_day {
+  display: none;
+}
+
+div.contentbox {
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+.five {
+  display: none;
+}
+
+footer {
+  text-align: center;
+}
+
+.smicon {
+  width: 30px;
+  padding: 5px;
+}
+
+iframe {
+  display: none;
+}
+
+/*** Clearfix. Force an element not to collapse ***/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
